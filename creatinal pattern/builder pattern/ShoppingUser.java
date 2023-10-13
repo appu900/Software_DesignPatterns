@@ -19,7 +19,7 @@ class Customer {
     private final String feedback;
     private final String phoneNumber;
 
-    public Customer(Builder builder) {
+    private Customer(Builder builder) {
         this.firstName = builder.firstName;
         this.lastName = builder.lastName;
         this.address = builder.address;
